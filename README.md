@@ -1,20 +1,3 @@
-Bài tập 04 của SV: K225480106085 - Hoàng Đức Hội- HQTCSDL
-
-bai tap 4: (sql server) yêu cầu bài toán:
-
-Tạo csdl cho TKB hệ thống (đã nghe học, đã xem cách làm)
-
-Nguồn dữ liệu: TMS.tnut.edu.vn
-
-Tạo các bảng tuỳ ý (3nf)
-
-Tạo truy vấn ra thông tin gồm 4 cột: họ tên gv, môn dạy, giờ vào lớp, giờ ra. trả lời câu hỏi: trong khoảng thời gian từ datetime1 tới datetime2 thì có những gv nào đang bận giảng dạy.
-
-các bước thực hiện:
-
-Tạo mới repo github: đặt tên tuỳ ý (có liên quan đến bài tập này)
-tạo tập tin readme.md, chỉnh sửa trực tuyến: dán những ảnh chụp màn hình nhập văn bản mô tả cho ảnh đó
-Gợi ý: sử dụng tms => dữ liệu thô => tiền xử lý => dữ liệu như ý (3nf) tạo các bảng với struct phù hợp chèn nhiều hàng từ excel vào cửa sổ chỉnh sửa bảng dữ liệu 1 (quan sát thì sẽ làm đc)
 
 hạn chót: 15/4/2025
 
@@ -23,58 +6,62 @@ hạn chót: 15/4/2025
 ![Screenshot 2025-04-24 210720](https://github.com/user-attachments/assets/cefbb1be-2a2f-432b-9a49-b43aa617ebe7)
 
 
-Dựa vào nguồn dữ liệu: TMS.tnut.edu.vn để tạo các bảng với các thuộc tính phù hợp(đã đạt tiêu chuẩn 3NF), đặt loại dữ liệu cho các thuộc tính sao cho tối ưu:
+2. Dựa vào nguồn dữ liệu: TMS.tnut.edu.vn để tạo các bảng với các thuộc tính phù hợp(đã đạt tiêu chuẩn 3NF), đặt loại dữ liệu cho các thuộc tính sao cho tối ưu:
 
-Bảng GV:
+- Bảng GV:
+
+
 ![Screenshot 2025-04-24 211909](https://github.com/user-attachments/assets/e298a900-3423-4047-b581-348b18f6e563)
 
 
-Bảng LOP:
+- Bảng LOP:
 
 ![Screenshot 2025-04-24 212255](https://github.com/user-attachments/assets/3e47c011-6420-4b33-a0a8-a94913dac75c)
 
-Bảng MON:
+- Bảng MON:
 
 ![Screenshot 2025-04-24 211919](https://github.com/user-attachments/assets/ebe22110-0d06-4faa-abe2-f645efd9184b)
 
-Bảng PHONG:
+- Bảng PHONG:
 
 ![Screenshot 2025-04-24 211925](https://github.com/user-attachments/assets/f3f5e808-fe73-4157-a534-8f2178dc4eee)
 
 
-Bảng LICH (lịch dạy):
+- Bảng LICH (lịch dạy):
 
 ![Screenshot 2025-04-24 211931](https://github.com/user-attachments/assets/8a4597d5-4f62-40bc-8ceb-839b353941a4)
 
 
-Đặt khóa chính cho các bảng và liên kết các khóa ngoại lệ:
+3. Đặt khóa chính cho các bảng và liên kết các khóa ngoại lệ:
 
 Ngoại trừ các khóa liên kết bảng:
 
-hình ảnh
+![Screenshot 2025-04-24 213115](https://github.com/user-attachments/assets/dff1a523-54f5-463e-bf3f-8705dab18a86)
 
-Sau khi đặt các khóa chính và các khóa liên kết ngoại trừ ta được sơ đồ liên kết sau ( sơ đồ cơ sở dữ liệu):
 
-hình ảnh
+- Sau khi đặt các khóa chính và các khóa liên kết ngoại trừ ta được sơ đồ liên kết sau ( sơ đồ cơ sở dữ liệu):
 
-Lấy thông tin từ nguồn TMS.tnut.edu.vn dán vào Excel và tiền xử lý dữ liệu (đọc các vòng lặp dữ liệu trong một số bảng) ------> Sao chép các dữ liệu đã được xử lý từ Excel vào mục Chỉnh sửa của bảng
+![Screenshot 2025-04-24 213811](https://github.com/user-attachments/assets/7f45ebdd-d77a-42d2-ab33-30472176cb9e)
 
-Bảng GV:
-hình ảnh
 
-Bảng LOP:
+4. Lấy thông tin từ nguồn TMS.tnut.edu.vn dán vào Excel và tiền xử lý dữ liệu (đọc các vòng lặp dữ liệu trong một số bảng) ------> Sao chép các dữ liệu đã được xử lý từ Excel vào mục Chỉnh sửa của bảng
 
-hình ảnh
+- Bảng GV:
 
-Bảng MON:
 
-hình ảnh
+- Bảng LOP:
 
-Bảng PHONG:
 
-hình ảnh
 
-Bảng LICH:
+- Bảng MON:
+
+
+
+- Bảng PHONG:
+
+
+
+- Bảng LICH:
 
 hình ảnh
 
