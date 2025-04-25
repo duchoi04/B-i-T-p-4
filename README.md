@@ -48,37 +48,46 @@ Ngoại trừ các khóa liên kết bảng:
 
 - Bảng GV:
 
+![Screenshot 2025-04-24 225001](https://github.com/user-attachments/assets/bb7b3a5d-ea54-42cb-8be2-236c0821eb51)
+
 
 - Bảng LOP:
 
+![Screenshot 2025-04-24 232820](https://github.com/user-attachments/assets/5697f2ce-1122-4043-b20c-492a9dca9475)
 
 
 - Bảng MON:
 
+![Screenshot 2025-04-25 232144](https://github.com/user-attachments/assets/26b140b9-be31-4b57-95d9-e300990646b1)
 
 
 - Bảng PHONG:
 
+![Screenshot 2025-04-25 232130](https://github.com/user-attachments/assets/21f4d0dc-55a3-4929-8c90-feb2a2601658)
 
 
 - Bảng LICH:
 
-hình ảnh
+![Screenshot 2025-04-25 000954](https://github.com/user-attachments/assets/1722d1e4-a0db-416d-9723-3143772d30e8)
+
 
 Truy vấn thông tin gồm 4 cột: họ tên gv, môn dạy, giờ vào lớp, giờ ra (em bổ sung thêm ngày):
 
-hình ảnh
+![Screenshot 2025-04-25 233005](https://github.com/user-attachments/assets/f1c78f88-bebd-4db6-9e6e-a433278224f6)
+
 
 Trả lời cho câu hỏi: rong khoảng thời gian từ datetime1 tới datetime2 thì có những gv nào đang bận giảng dạy.
 
 Em tạo 1 truy cập vẫn giữa thời điểm này và thời điểm kia để so sánh giờ vào và giờ ra:
 
-hình ảnh
+![Screenshot 2025-04-25 233751](https://github.com/user-attachments/assets/fa0e9d7c-44eb-435b-bc6b-b1fcc232b5e3)
+
 
 Ngoài ra, ta cũng có thể đóng gói thành phần 1 cho những lần sau không cần truy vấn quá dài:
 
-hình ảnh
+![Screenshot 2025-04-26 000322](https://github.com/user-attachments/assets/01f53f15-0816-479d-aa97-0c4a30841764)
+
 
 Đóng gói chức năng và truy vấn ngắn gọn:
 
-hình ảnh
+![Screenshot 2025-04-26 000553](https://github.com/user-attachments/assets/7be17fdc-4922-4819-88a2-139cd8309a4e)
