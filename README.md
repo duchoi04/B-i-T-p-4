@@ -1,4 +1,16 @@
+Bài tập 04 của SV: K225480106085 - HOÀNG ĐỨC HỘI - HQTCSDL
 
+bai tap 4: (sql server) yêu cầu bài toán:
+
+Tạo csdl cho hệ thống TKB (đã nghe học, đã xem cách làm)
+Nguồn dữ liệu: TMS.tnut.edu.vn
+Tạo các bảng tuỳ ý (3nf)
+Tạo truy vấn ra thông tin gồm 4 cột: họ tên gv, môn dạy, giờ vào lớp, giờ ra. trả lời câu hỏi: trong khoảng thời gian từ datetime1 tới datetime2 thì có những gv nào đang bận giảng dạy.
+các bước thực hiện:
+
+Tạo mới repo github: đặt tên tuỳ ý (có liên quan đến bài tập này)
+tạo tập tin readme.md, chỉnh sửa trực tuyến: dán những ảnh chụp màn hình nhập văn bản mô tả cho ảnh đó
+Gợi ý: sử dụng tms => dữ liệu thô => tiền xử lý => dữ liệu như ý (3nf) tạo các bảng với struct phù hợp chèn nhiều hàng từ excel vào cửa sổ chỉnh sửa bảng dữ liệu 1 (quan sát thì sẽ làm được)
 hạn chót: 15/4/2025
 
 1.Tạo cơ sở dữ liệu cho TKB hệ thống:
